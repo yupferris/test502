@@ -2,5 +2,10 @@
 name = "test502"
 version = "0.1.0"
 authors = ["ferris <yupferris@gmail.com>"]
+build = "build.rs"
 
 [dependencies]
+libc = "0.2"
+
+[build-dependencies]
+gcc = "0.3"
